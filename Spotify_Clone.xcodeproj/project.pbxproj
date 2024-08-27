@@ -15,6 +15,7 @@
 		74FEC9A82C7E7B6E00574D57 /* AlbumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9A72C7E7B6E00574D57 /* AlbumData.swift */; };
 		74FEC9AC2C7E7DB800574D57 /* AlbumData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74FEC9AB2C7E7DB800574D57 /* AlbumData.json */; };
 		74FEC9AE2C7E822F00574D57 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9AD2C7E822F00574D57 /* Parser.swift */; };
+		74FEC9B02C7E8D8B00574D57 /* AlbumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9AF2C7E8D8B00574D57 /* AlbumList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		74FEC9A72C7E7B6E00574D57 /* AlbumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumData.swift; sourceTree = "<group>"; };
 		74FEC9AB2C7E7DB800574D57 /* AlbumData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = AlbumData.json; path = "../../../../sptfy/Spotify/Data Parsing/Album Parsing/AlbumData.json"; sourceTree = "<group>"; };
 		74FEC9AD2C7E822F00574D57 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		74FEC9AF2C7E8D8B00574D57 /* AlbumList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				74FEC9A32C7E7A8700574D57 /* NewItems.swift */,
+				74FEC9AF2C7E8D8B00574D57 /* AlbumList.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				74887F242C78D24300C89870 /* ContentView.swift in Sources */,
 				74FEC9A82C7E7B6E00574D57 /* AlbumData.swift in Sources */,
 				74FEC9AE2C7E822F00574D57 /* Parser.swift in Sources */,
+				74FEC9B02C7E8D8B00574D57 /* AlbumList.swift in Sources */,
 				74887F222C78D24300C89870 /* Spotify_CloneApp.swift in Sources */,
 				74FEC9A42C7E7A8700574D57 /* NewItems.swift in Sources */,
 			);

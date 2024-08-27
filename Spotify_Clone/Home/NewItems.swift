@@ -16,7 +16,7 @@ struct NewItems: View {
             ZStack(alignment: .leading) {
                 Color(.darkGray)
                 HStack{
-                    Image(album.image)
+                    Image(album.img)
                         .resizable()
                         .clipShape(RoundedRectangle(cornerRadius: 0))
                         .aspectRatio(contentMode: .fit)
