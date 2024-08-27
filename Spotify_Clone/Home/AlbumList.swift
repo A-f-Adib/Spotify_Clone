@@ -19,11 +19,20 @@ struct AlbumList: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 150)
+                Text(albums.album)
+                    .foregroundColor(.white)
+                    .font(.system(size: 17))
+                    .fontWeight(.semibold)
+                    .padding(.top, 2)
+                Text("Album ~ \(albums.artist)")
+                    .foregroundColor(.white)
+                    .font(.system(size: 13))
+                    .padding(.top, 1)
             }
         }
     }
 }
 
 #Preview {
-    AlbumList()
+    AlbumList(albums: albums[0])
 }
