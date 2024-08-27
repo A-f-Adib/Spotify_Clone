@@ -8,6 +8,7 @@
 import Foundation
 
 var albums : [ Album] = Load("AlbumData.json")
+var podcasts : [PodCast] = Load("PodcastData.json")
 
 func Load<T:Decodable> (_ fileName : String) -> T {
    

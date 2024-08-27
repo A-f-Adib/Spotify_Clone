@@ -16,6 +16,9 @@
 		74FEC9AC2C7E7DB800574D57 /* AlbumData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74FEC9AB2C7E7DB800574D57 /* AlbumData.json */; };
 		74FEC9AE2C7E822F00574D57 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9AD2C7E822F00574D57 /* Parser.swift */; };
 		74FEC9B02C7E8D8B00574D57 /* AlbumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9AF2C7E8D8B00574D57 /* AlbumList.swift */; };
+		74FEC9B22C7E901200574D57 /* PodCastList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9B12C7E901200574D57 /* PodCastList.swift */; };
+		74FEC9B52C7E905400574D57 /* PodCastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9B42C7E905400574D57 /* PodCastData.swift */; };
+		74FEC9B72C7E910200574D57 /* PodcastData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74FEC9B62C7E910200574D57 /* PodcastData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		74FEC9AB2C7E7DB800574D57 /* AlbumData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = AlbumData.json; path = "../../../../sptfy/Spotify/Data Parsing/Album Parsing/AlbumData.json"; sourceTree = "<group>"; };
 		74FEC9AD2C7E822F00574D57 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		74FEC9AF2C7E8D8B00574D57 /* AlbumList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumList.swift; sourceTree = "<group>"; };
+		74FEC9B12C7E901200574D57 /* PodCastList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodCastList.swift; sourceTree = "<group>"; };
+		74FEC9B42C7E905400574D57 /* PodCastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodCastData.swift; sourceTree = "<group>"; };
+		74FEC9B62C7E910200574D57 /* PodcastData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PodcastData.json; path = "../../../../sptfy/Spotify/Data Parsing/Podcast Parsing/PodcastData.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,7 @@
 			children = (
 				74FEC9A32C7E7A8700574D57 /* NewItems.swift */,
 				74FEC9AF2C7E8D8B00574D57 /* AlbumList.swift */,
+				74FEC9B12C7E901200574D57 /* PodCastList.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 		74FEC9A52C7E7B0B00574D57 /* DataParsing */ = {
 			isa = PBXGroup;
 			children = (
+				74FEC9B32C7E903300574D57 /* PodCastParsing */,
 				74FEC9A62C7E7B4800574D57 /* AlbumParsing */,
 				74FEC9AD2C7E822F00574D57 /* Parser.swift */,
 			);
@@ -106,6 +114,15 @@
 				74FEC9A72C7E7B6E00574D57 /* AlbumData.swift */,
 			);
 			path = AlbumParsing;
+			sourceTree = "<group>";
+		};
+		74FEC9B32C7E903300574D57 /* PodCastParsing */ = {
+			isa = PBXGroup;
+			children = (
+				74FEC9B62C7E910200574D57 /* PodcastData.json */,
+				74FEC9B42C7E905400574D57 /* PodCastData.swift */,
+			);
+			path = PodCastParsing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74FEC9B72C7E910200574D57 /* PodcastData.json in Resources */,
 				74887F2A2C78D24C00C89870 /* Preview Assets.xcassets in Resources */,
 				74FEC9AC2C7E7DB800574D57 /* AlbumData.json in Resources */,
 				74887F262C78D24C00C89870 /* Assets.xcassets in Resources */,
@@ -179,9 +197,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74FEC9B22C7E901200574D57 /* PodCastList.swift in Sources */,
 				74887F242C78D24300C89870 /* ContentView.swift in Sources */,
 				74FEC9A82C7E7B6E00574D57 /* AlbumData.swift in Sources */,
 				74FEC9AE2C7E822F00574D57 /* Parser.swift in Sources */,
+				74FEC9B52C7E905400574D57 /* PodCastData.swift in Sources */,
 				74FEC9B02C7E8D8B00574D57 /* AlbumList.swift in Sources */,
 				74887F222C78D24300C89870 /* Spotify_CloneApp.swift in Sources */,
 				74FEC9A42C7E7A8700574D57 /* NewItems.swift in Sources */,
