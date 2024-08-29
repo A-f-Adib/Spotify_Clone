@@ -16,10 +16,22 @@ struct PodCastList: View {
             Color.black
                 .ignoresSafeArea()
             VStack(alignment: .leading){
-                Image(podcasts.img)
+                Image(podCasts.img)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 150)
+                Text(podCasts.podcast)
+                    .foregroundColor(.white)
+                    .font(.system(size: 17))
+                    .fontWeight(.semibold)
+                    .padding(.top, 2)
+                Text("Show · \(podCasts.network)")
+                    .foregroundColor(.white)
+                    .font(.system(size:13))
+                    .padding(.top, 1)
+            }
+            .frame(width: 150)
+        }
     }
 }
 
