@@ -10,7 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-   
+    let darkGray:Color = Color(red: 0.15, green: 0.15, blue: 0.15)
+    
+    init() {
+        UITabBar.appearance().barTintColor = .black
+    }
     
     var body: some View {
        
@@ -29,6 +33,13 @@ struct ContentView: View {
                     
                     
                     LibraryView()
+                .tabItem {
+                    Image(systemName: "books.vertical")
+                    Text("Library")
+                }.tag(2)
+                
+        }.accentColor(.white)
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
             
     }
 }
