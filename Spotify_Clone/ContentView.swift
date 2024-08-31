@@ -24,6 +24,11 @@ struct ContentView: View {
                     Image(systemName: "house")
                     Text("Home")
                 }.tag(0)
+            SearchView(mainplaylists: playlists[0])
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                    Text("Search")
+                }.tag(1)
     }
 }
 
