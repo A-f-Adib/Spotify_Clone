@@ -9,11 +9,21 @@ import SwiftUI
 
 
 struct ContentView: View {
+    
+    let darkGray:Color = Color(red: 0.15, green: 0.15, blue: 0.15)
+    
+    init() {
+        UITabBar.appearance().barTintColor = .black
+    }
+    
     var body: some View {
-        VStack {
-            Text("HEllo")
-        }
-        .padding()
+       
+        TabView{
+            HomeView(mainAlbums: albums[0], mainPodcasts: podcasts[0])
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Home")
+                }.tag(0)
     }
 }
 
