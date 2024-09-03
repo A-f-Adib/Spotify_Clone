@@ -14,13 +14,8 @@ struct ContentView: View {
     
     var body: some View {
        
-      
                     Text("Search")
-                }.tag(1)
-                    
-                    
-                    LibraryView()
-                .tabItem {
+             
                     Image(systemName: "books.vertical")
                     Text("Library")
                 }.tag(2)
