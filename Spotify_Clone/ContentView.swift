@@ -12,10 +12,6 @@ struct ContentView: View {
     
     let darkGray:Color = Color(red: 0.15, green: 0.15, blue: 0.15)
     
-    init() {
-        UITabBar.appearance().barTintColor = .black
-    }
-    
     var body: some View {
        
         TabView{
