@@ -14,15 +14,8 @@ struct ContentView: View {
     
     var body: some View {
        
-                    Text("Search")
+        Text("Search")
              
-                    Image(systemName: "books.vertical")
-                    Text("Library")
-                }.tag(2)
-                
-        }.accentColor(.white)
-        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
-            
     }
 }
 
