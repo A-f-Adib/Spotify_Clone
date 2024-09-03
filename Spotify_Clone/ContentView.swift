@@ -14,12 +14,7 @@ struct ContentView: View {
     
     var body: some View {
        
-        TabView{
-            
-            
-            SearchView(mainplaylists: playlists[0])
-                .tabItem {
-                    Image(systemName: "magnifyingglass")
+      
                     Text("Search")
                 }.tag(1)
                     
