@@ -106,6 +106,39 @@ struct HomeView: View {
                         }
                         .padding()
                         .padding(.bottom, -10)
+                        
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(alignment: .top){
+                                AlbumList(albums: albums[1])
+                                AlbumList(albums: albums[2])
+                                AlbumList(albums: albums[3])
+                                AlbumList(albums: albums[4])
+                                AlbumList(albums: albums[5])
+                            }
+                        }.padding(.leading)
+                        .padding(.trailing)
+                        
+                        HStack {
+                            Text("Podcasts")
+                                .font(.system(size: 25))
+                                .foregroundColor(.white)
+                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            Spacer()
+                        }.padding()
+                        
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(alignment: .top){
+                                PodList(podcasts: podcasts[0])
+                                podlist(img: "supernatural", name: "Supernatural with Ashley Flowers", network: "Parcast Network")
+                                podlist(img: "serialk", name: "Serial Killers", network: "Parcast Network")
+                                podlist(img: "morbid", name: "Morbid: A True Crime Podcast", network: "Morbid Network")
+                                podlist(img: "hauntedp", name: "Haunted Places", network: "Parcast Network")
+                                podlist(img: "casefile", name: "Casefile", network: "Casefile Presents")
+                            }.padding(.leading)
+                            .padding(.trailing)
+                        }
                     }
                 }
             }
