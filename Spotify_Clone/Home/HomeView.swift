@@ -14,11 +14,36 @@ let AlbumTitleList = ["Isles", "Together", "Tell Me", "Enough to Believe", "Blac
 let AlbumArtistList = ["Jon Gurd", "Tinlicker", "Bob Moses", "Various Artists", "Logic"]
 
 struct HomeView: View {
+    
+    var mainAlbums: Album
+    var mainPodcasts : PodCast
+    var islesdeets : AlbumDetails = isles[0]
+    
+    init(mainAlbums: Album, mainPodcasts: PodCast) {
+        self.mainAlbums = mainAlbums
+        self.mainPodcasts = mainPodcasts
+       
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color(.black)
+                .ignoresSafeArea()
+            ScrollView{
+                ZStack{
+                    LinearGradient(gradient:
+                                     Gradient(stops: [.init(color: .gray, location: 0.0),
+                                                     .init(color: .black, location: 0.25),
+                                                      .init(color: .black, location: 0.6)]),
+                                   startPoint: .topLeading,
+                                   endPoint: .bottomTrailing)
+                    .ignoresSafeArea(.all)
+                }
+            }
+        }
     }
 }
 
 #Preview {
-    HomeView()
+    HomeView(mainAlbums: albums[0], mainPodcasts: podcasts[0])
 }
