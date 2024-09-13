@@ -38,6 +38,31 @@ struct HomeView: View {
                                    startPoint: .topLeading,
                                    endPoint: .bottomTrailing)
                     .ignoresSafeArea(.all)
+                    
+                    VStack(alignment: .center){
+                        HStack{
+                            Text("Good Morning")
+                                .foregroundColor(.white)
+                                .font(.system(size: 23))
+                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            
+                            Spacer()
+                            Image(systemName: "clock.arrow.circlepath")
+                                .resizable()
+                                .foregroundColor(.white)
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 23, height: 23)
+                            Image(systemName: "gearshape")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .foregroundColor(.white)
+                                .frame(width: 23, height: 23)
+                                .padding(.leading, 10)
+                        }
+                        .padding(.leading, 20)
+                        .padding(.trailing, 20)
+                        .padding(.bottom, 20)
+                    }
                 }
             }
         }
