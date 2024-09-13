@@ -130,7 +130,7 @@ struct HomeView: View {
                         
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack(alignment: .top){
-                                PodList(podcasts: podcasts[0])
+                                PodCastList(podCasts: podcasts[0])
                                 podlist(img: "supernatural", name: "Supernatural with Ashley Flowers", network: "Parcast Network")
                                 podlist(img: "serialk", name: "Serial Killers", network: "Parcast Network")
                                 podlist(img: "morbid", name: "Morbid: A True Crime Podcast", network: "Morbid Network")
@@ -139,11 +139,35 @@ struct HomeView: View {
                             }.padding(.leading)
                             .padding(.trailing)
                         }
+                        
+                        Spacer()
                     }
+                    .padding(.top, 40.0)
+                    .padding(.bottom, 100)
                 }
-            }
+            }.ignoresSafeArea()
         }
+        .navigationBarBackButtonHidden(true)
     }
+}
+
+func podlist(img: String, name: String, network: String) -> some View{
+    return VStack(alignment: .leading){
+        Image(img)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 150)
+        Text(name)
+            .foregroundColor(.white)
+            .font(.system(size: 17))
+            .fontWeight(.semibold)
+            .padding(.top, 2)
+        Text("Show · \(network)")
+            .foregroundColor(.white)
+            .font(.system(size:13))
+            .padding(.top, 1)
+    }
+    .frame(width: 150)
 }
 
 #Preview {
