@@ -11,6 +11,7 @@
 		74887F242C78D24300C89870 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74887F232C78D24300C89870 /* ContentView.swift */; };
 		74887F262C78D24C00C89870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74887F252C78D24C00C89870 /* Assets.xcassets */; };
 		74887F2A2C78D24C00C89870 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74887F292C78D24C00C89870 /* Preview Assets.xcassets */; };
+		7498417B2C94D710000169E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7498417A2C94D710000169E2 /* HomeView.swift */; };
 		74FEC9A42C7E7A8700574D57 /* NewItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9A32C7E7A8700574D57 /* NewItems.swift */; };
 		74FEC9A82C7E7B6E00574D57 /* AlbumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9A72C7E7B6E00574D57 /* AlbumData.swift */; };
 		74FEC9AC2C7E7DB800574D57 /* AlbumData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74FEC9AB2C7E7DB800574D57 /* AlbumData.json */; };
@@ -28,6 +29,7 @@
 		74887F252C78D24C00C89870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74887F272C78D24C00C89870 /* Spotify_Clone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spotify_Clone.entitlements; sourceTree = "<group>"; };
 		74887F292C78D24C00C89870 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7498417A2C94D710000169E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		74FEC9A32C7E7A8700574D57 /* NewItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItems.swift; sourceTree = "<group>"; };
 		74FEC9A72C7E7B6E00574D57 /* AlbumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumData.swift; sourceTree = "<group>"; };
 		74FEC9AB2C7E7DB800574D57 /* AlbumData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = AlbumData.json; path = "../../../../sptfy/Spotify/Data Parsing/Album Parsing/AlbumData.json"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				74FEC9A32C7E7A8700574D57 /* NewItems.swift */,
 				74FEC9AF2C7E8D8B00574D57 /* AlbumList.swift */,
 				74FEC9B12C7E901200574D57 /* PodCastList.swift */,
+				7498417A2C94D710000169E2 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7498417B2C94D710000169E2 /* HomeView.swift in Sources */,
 				74FEC9B22C7E901200574D57 /* PodCastList.swift in Sources */,
 				74887F242C78D24300C89870 /* ContentView.swift in Sources */,
 				74FEC9A82C7E7B6E00574D57 /* AlbumData.swift in Sources */,
