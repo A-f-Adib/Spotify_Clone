@@ -62,6 +62,50 @@ struct HomeView: View {
                         .padding(.leading, 20)
                         .padding(.trailing, 20)
                         .padding(.bottom, 20)
+                        
+                        HStack {
+                            Spacer(minLength: 20)
+                            VStack {
+                                HStack {
+                                    NewItems(album: albums[0])
+                                    NewItems(album: albums[1])
+                                }
+                                
+                                HStack{
+                                    NewItems(album: albums[2])
+                                    NewItems(album: albums[3])
+                                }
+                                HStack{
+                                    NewItems(album: albums[4])
+                                    NewItems(album: albums[5])
+                                }
+                            }
+                            Spacer(minLength: 20)
+                        }
+                        
+                        
+                        HStack(){
+                            Image(mainAlbums.artistimg)
+                                .resizable()
+                                .clipShape(Circle())
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 50)
+                            VStack(alignment: .leading){
+                                Text("MORE LIKE")
+                                    .font(.system(size: 10))
+                                    .tracking(1)
+                                    .foregroundColor(.white)
+                                    .font(.caption)
+                                Text(mainAlbums.artist)
+                                    .foregroundColor(.white)
+                                    .font(.system(size: 25))
+                                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            }
+                            
+                            Spacer()
+                        }
+                        .padding()
+                        .padding(.bottom, -10)
                     }
                 }
             }
