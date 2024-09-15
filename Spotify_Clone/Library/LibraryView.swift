@@ -98,6 +98,7 @@ struct LibraryView: View {
                             }
                         }
                         VStack{
+                            
                             if (self.libIndex==2){
                                 Button("Albums"){
                                     withAnimation{
@@ -107,6 +108,36 @@ struct LibraryView: View {
                                 Rectangle()
                                     .frame(width: 75, height: 3)
                                     .foregroundColor(.green)
+                            }
+                            
+                            else {
+                                Button("Albums"){
+                                    withAnimation{
+                                        self.libIndex=2
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                .foregroundColor(.gray)
+                            }
+                        }
+                        
+                    }.foregroundColor(.white)
+                    .padding(.bottom, 10)
+                }
+                else if (self.libIndex==3 || self.libIndex==4 || self.libIndex==5)
+                {
+                    HStack(alignment: .top, spacing: 30){
+                        VStack(alignment: .center){
+                            if (self.libIndex==3) {
+                                Button("Episodes"){
+                                    withAnimation{
+                                        self.libIndex=3
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                
+                                Rectangle()
+                                    .frame(width: 79, height: 3)
+                                    .foregroundColor(.green)
+                                    .transition(.slide)
                             }
 
     }
