@@ -14,7 +14,28 @@ struct ContentView: View {
     
     var body: some View {
        
-        Text("Search")
+        TabView{
+            HomeView(mainAlbums: albums[0], mainPodcasts: podcasts[0])
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Home")
+                }.tag(0)
+            
+            SearchView(mainplaylists: playlists[0])
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                    Text("Search")
+                }.tag(1)
+                    
+                    
+            LibraryView()
+                        .tabItem {
+                            Image(systemName: "books.vertical")
+                            Text("Library")
+                        }.tag(2)
+                        
+        }.accentColor(.white)
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }
 
