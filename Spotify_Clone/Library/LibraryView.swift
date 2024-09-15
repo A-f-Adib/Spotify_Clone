@@ -34,6 +34,22 @@ struct LibraryView: View {
                         }.font(.system(size: 35, weight: .bold))
                         .foregroundColor(.gray)
                     }
+                    if(self.libIndex>=3) {
+                        Button("Podcasts"){
+                            self.libIndex=3
+                        }.font(.system(size: 35, weight: .bold))
+                        .foregroundColor(.white)
+                    }
+                    else
+                    {
+                        Button("Podcasts"){
+                            self.libIndex=3
+                        }.font(.system(size: 35, weight: .bold))
+                        .foregroundColor(.gray)
+                    }
+                }
+                .padding(.bottom, 10)
+
     }
 }
 
