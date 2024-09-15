@@ -14,6 +14,8 @@
 		7498417B2C94D710000169E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7498417A2C94D710000169E2 /* HomeView.swift */; };
 		7498417E2C94D942000169E2 /* IslesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7498417D2C94D942000169E2 /* IslesData.swift */; };
 		749841802C94DA19000169E2 /* Isles.json in Resources */ = {isa = PBXBuildFile; fileRef = 7498417F2C94DA19000169E2 /* Isles.json */; };
+		74D007382C973C81009E21C1 /* GenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D007372C973C81009E21C1 /* GenreView.swift */; };
+		74D0073B2C973CED009E21C1 /* PlayListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D0073A2C973CED009E21C1 /* PlayListData.swift */; };
 		74FEC9A42C7E7A8700574D57 /* NewItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9A32C7E7A8700574D57 /* NewItems.swift */; };
 		74FEC9A82C7E7B6E00574D57 /* AlbumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9A72C7E7B6E00574D57 /* AlbumData.swift */; };
 		74FEC9AC2C7E7DB800574D57 /* AlbumData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74FEC9AB2C7E7DB800574D57 /* AlbumData.json */; };
@@ -34,6 +36,8 @@
 		7498417A2C94D710000169E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7498417D2C94D942000169E2 /* IslesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslesData.swift; sourceTree = "<group>"; };
 		7498417F2C94DA19000169E2 /* Isles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Isles.json; sourceTree = "<group>"; };
+		74D007372C973C81009E21C1 /* GenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreView.swift; sourceTree = "<group>"; };
+		74D0073A2C973CED009E21C1 /* PlayListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListData.swift; sourceTree = "<group>"; };
 		74FEC9A32C7E7A8700574D57 /* NewItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItems.swift; sourceTree = "<group>"; };
 		74FEC9A72C7E7B6E00574D57 /* AlbumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumData.swift; sourceTree = "<group>"; };
 		74FEC9AB2C7E7DB800574D57 /* AlbumData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = AlbumData.json; path = "../../../../sptfy/Spotify/Data Parsing/Album Parsing/AlbumData.json"; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 			children = (
 				74887F212C78D24300C89870 /* Spotify_CloneApp.swift */,
 				74887F232C78D24300C89870 /* ContentView.swift */,
+				74D007362C973C49009E21C1 /* Search */,
 				74FEC9A52C7E7B0B00574D57 /* DataParsing */,
 				74FEC9A22C7E7A6E00574D57 /* Home */,
 				74887F252C78D24C00C89870 /* Assets.xcassets */,
@@ -102,6 +107,22 @@
 			path = AlbumDetails;
 			sourceTree = "<group>";
 		};
+		74D007362C973C49009E21C1 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				74D007372C973C81009E21C1 /* GenreView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		74D007392C973CC1009E21C1 /* PlayListParsing */ = {
+			isa = PBXGroup;
+			children = (
+				74D0073A2C973CED009E21C1 /* PlayListData.swift */,
+			);
+			path = PlayListParsing;
+			sourceTree = "<group>";
+		};
 		74FEC9A22C7E7A6E00574D57 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +137,7 @@
 		74FEC9A52C7E7B0B00574D57 /* DataParsing */ = {
 			isa = PBXGroup;
 			children = (
+				74D007392C973CC1009E21C1 /* PlayListParsing */,
 				7498417C2C94D8BC000169E2 /* AlbumDetails */,
 				74FEC9B32C7E903300574D57 /* PodCastParsing */,
 				74FEC9A62C7E7B4800574D57 /* AlbumParsing */,
@@ -220,11 +242,13 @@
 				74887F242C78D24300C89870 /* ContentView.swift in Sources */,
 				74FEC9A82C7E7B6E00574D57 /* AlbumData.swift in Sources */,
 				74FEC9AE2C7E822F00574D57 /* Parser.swift in Sources */,
+				74D0073B2C973CED009E21C1 /* PlayListData.swift in Sources */,
 				74FEC9B52C7E905400574D57 /* PodCastData.swift in Sources */,
 				7498417E2C94D942000169E2 /* IslesData.swift in Sources */,
 				74FEC9B02C7E8D8B00574D57 /* AlbumList.swift in Sources */,
 				74887F222C78D24300C89870 /* Spotify_CloneApp.swift in Sources */,
 				74FEC9A42C7E7A8700574D57 /* NewItems.swift in Sources */,
+				74D007382C973C81009E21C1 /* GenreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
