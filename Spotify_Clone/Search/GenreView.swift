@@ -11,9 +11,9 @@ struct GenreView: View {
     var playlists : PlayList
     var body: some View {
         ZStack (alignment: .leading){
-//            LinearGradient(
-//                gradient: Gradient(colors: [random()]),
-//                startPoint: .leading, endPoint: .trailing)
+            LinearGradient(
+                gradient: Gradient(colors: [random()]),
+                startPoint: .leading, endPoint: .trailing)
             HStack(alignment: .top){
                 Text(playlists.genre)
                     .font(.system(size: 14))
