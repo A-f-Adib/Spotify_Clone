@@ -179,6 +179,60 @@ struct LibraryView: View {
                                 Rectangle()
                                     .frame(width: 75, height: 3)
                                     .foregroundColor(.green)
+                                
+                            }
+                            else {
+                                Button("Shows"){
+                                    withAnimation{
+                                        self.libIndex=5
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                .foregroundColor(.gray)
+                            }
+                        }
+                        
+                    }.foregroundColor(.white)
+                    .padding(.bottom, 10)
+                }
+                
+                switch self.libIndex{
+                case 0:
+                    VStack{
+                        PlaylistsView().transition(.slide)
+                    }
+                case 1:
+                    VStack{
+                        ArtistsView()
+                            .transition(.slide)
+                    }
+                case 2:
+                    VStack{
+                        AlbumsView()
+                            .transition(.slide)
+                    }
+                case 3:
+                    VStack{
+                        EpisodesView()
+                            .transition(.slide)
+                    }
+                case 4:
+                    VStack{
+                        DownloadsView()
+                            .transition(.slide)
+                    }
+                case 5:
+                    VStack{
+                        ShowsView().transition(.slide)
+                    }
+                default:
+                    VStack{
+                        PlaylistsView()
+                            .transition(.slide)
+                    }
+                }
+                Spacer()
+            }.padding()
+        }
 
     }
 }
