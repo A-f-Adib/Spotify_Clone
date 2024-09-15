@@ -49,6 +49,33 @@ struct LibraryView: View {
                     }
                 }
                 .padding(.bottom, 10)
+                
+                
+                if (self.libIndex == 0 || libIndex==1 || libIndex == 2)
+                {
+                    HStack(alignment: .top, spacing: 30){
+                        VStack(alignment: .center){
+                            if (self.libIndex==0) {
+                                Button("Playlists"){
+                                    withAnimation{
+                                        self.libIndex=0
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                Rectangle()
+                                    .frame(width: 89, height: 3)
+                                    .foregroundColor(.green)
+                                    .transition(.slide)
+                            }
+                            else {
+                                Button("Playlists"){
+                                    withAnimation{
+                                        self.libIndex=0
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                .foregroundColor(.gray)
+                                .transition(.slide)
+                            }
+                        }
 
     }
 }
