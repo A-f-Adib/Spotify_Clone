@@ -76,6 +76,38 @@ struct LibraryView: View {
                                 .transition(.slide)
                             }
                         }
+                        
+                        VStack{
+                            if (self.libIndex==1){
+                                Button("Artists"){
+                                    withAnimation{
+                                        self.libIndex=1
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                Rectangle()
+                                    .frame(width: 65, height: 3)
+                                    .foregroundColor(.green)
+                            }
+                            else {
+                                Button("Artists"){
+                                    withAnimation{
+                                        self.libIndex=1
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                .foregroundColor(.gray)
+                            }
+                        }
+                        VStack{
+                            if (self.libIndex==2){
+                                Button("Albums"){
+                                    withAnimation{
+                                        self.libIndex=2
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                Rectangle()
+                                    .frame(width: 75, height: 3)
+                                    .foregroundColor(.green)
+                            }
 
     }
 }
