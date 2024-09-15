@@ -139,6 +139,46 @@ struct LibraryView: View {
                                     .foregroundColor(.green)
                                     .transition(.slide)
                             }
+                            else {
+                                Button("Episodes"){
+                                    withAnimation{
+                                        self.libIndex=3
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                .foregroundColor(.gray)
+                                .transition(.slide)
+                            }
+                        }
+                        VStack(){
+                            if (self.libIndex==4){
+                                Button("Downloads"){
+                                    withAnimation{
+                                        self.libIndex=4
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                Rectangle()
+                                    .frame(width: 100,height: 3)
+                                    .foregroundColor(.green)
+                            }
+                            else {
+                                Button("Downloads"){
+                                    withAnimation{
+                                        self.libIndex=4
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                .foregroundColor(.gray)
+                            }
+                        }.frame(width: 100)
+                        VStack{
+                            if (self.libIndex==5){
+                                Button("Shows"){
+                                    withAnimation{
+                                        self.libIndex=5
+                                    }
+                                }.font(.system(size: 17, weight: .bold))
+                                Rectangle()
+                                    .frame(width: 75, height: 3)
+                                    .foregroundColor(.green)
 
     }
 }
