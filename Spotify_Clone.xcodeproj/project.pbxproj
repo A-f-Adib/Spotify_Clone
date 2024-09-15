@@ -16,6 +16,7 @@
 		749841802C94DA19000169E2 /* Isles.json in Resources */ = {isa = PBXBuildFile; fileRef = 7498417F2C94DA19000169E2 /* Isles.json */; };
 		74D007382C973C81009E21C1 /* GenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D007372C973C81009E21C1 /* GenreView.swift */; };
 		74D0073B2C973CED009E21C1 /* PlayListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D0073A2C973CED009E21C1 /* PlayListData.swift */; };
+		74D0073D2C973D90009E21C1 /* PlayListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74D0073C2C973D90009E21C1 /* PlayListData.json */; };
 		74FEC9A42C7E7A8700574D57 /* NewItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9A32C7E7A8700574D57 /* NewItems.swift */; };
 		74FEC9A82C7E7B6E00574D57 /* AlbumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FEC9A72C7E7B6E00574D57 /* AlbumData.swift */; };
 		74FEC9AC2C7E7DB800574D57 /* AlbumData.json in Resources */ = {isa = PBXBuildFile; fileRef = 74FEC9AB2C7E7DB800574D57 /* AlbumData.json */; };
@@ -38,6 +39,7 @@
 		7498417F2C94DA19000169E2 /* Isles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Isles.json; sourceTree = "<group>"; };
 		74D007372C973C81009E21C1 /* GenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreView.swift; sourceTree = "<group>"; };
 		74D0073A2C973CED009E21C1 /* PlayListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListData.swift; sourceTree = "<group>"; };
+		74D0073C2C973D90009E21C1 /* PlayListData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PlayListData.json; sourceTree = "<group>"; };
 		74FEC9A32C7E7A8700574D57 /* NewItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItems.swift; sourceTree = "<group>"; };
 		74FEC9A72C7E7B6E00574D57 /* AlbumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumData.swift; sourceTree = "<group>"; };
 		74FEC9AB2C7E7DB800574D57 /* AlbumData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = AlbumData.json; path = "../../../../sptfy/Spotify/Data Parsing/Album Parsing/AlbumData.json"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				74D0073A2C973CED009E21C1 /* PlayListData.swift */,
+				74D0073C2C973D90009E21C1 /* PlayListData.json */,
 			);
 			path = PlayListParsing;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				74887F2A2C78D24C00C89870 /* Preview Assets.xcassets in Resources */,
 				74FEC9AC2C7E7DB800574D57 /* AlbumData.json in Resources */,
 				74887F262C78D24C00C89870 /* Assets.xcassets in Resources */,
+				74D0073D2C973D90009E21C1 /* PlayListData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

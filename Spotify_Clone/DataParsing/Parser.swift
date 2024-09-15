@@ -10,6 +10,7 @@ import Foundation
 var albums : [ Album] = Load("AlbumData.json")
 var podcasts : [PodCast] = Load("PodcastData.json")
 var isles : [AlbumDetails] = Load("Isles.json")
+var playlists : [PlayList] = Load("PlayListData.json")
 
 func Load<T:Decodable> (_ fileName : String) -> T {
    
