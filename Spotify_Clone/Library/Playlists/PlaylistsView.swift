@@ -37,6 +37,31 @@ struct PlaylistsView: View {
             .foregroundColor(.gray)
             .background(Color.gray).opacity(0.4)
         }.padding(.bottom, 5)
+        
+        HStack{
+            Image(systemName: "plus")
+                .clipShape(Rectangle())
+                .frame(width: 65, height: 65)
+                .background(darkGray)
+            Text("Create playlist")
+                .font(.headline).bold()
+                .padding(.leading, 10)
+            Spacer()
+        }.padding(.bottom, 1)
+        HStack{
+            Image(systemName: "heart.fill")
+                .clipShape(Rectangle())
+                .frame(width: 65, height: 65)
+                .background(LinearGradient(gradient: Gradient(colors: [.purple, .pink, .white]), startPoint: .topLeading, endPoint: .bottomTrailing))
+            VStack(alignment: .leading) {
+                Text("Liked songs")
+                    .font(.headline).bold()
+                Text("69 songs")
+                    .font(.subheadline).opacity(0.7)
+            }.padding(.leading, 10)
+
+            Spacer()
+        }.padding(.bottom, 1)
     }
 }
 
