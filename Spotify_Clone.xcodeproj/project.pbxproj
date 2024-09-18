@@ -15,6 +15,7 @@
 		7498417E2C94D942000169E2 /* IslesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7498417D2C94D942000169E2 /* IslesData.swift */; };
 		749841802C94DA19000169E2 /* Isles.json in Resources */ = {isa = PBXBuildFile; fileRef = 7498417F2C94DA19000169E2 /* Isles.json */; };
 		74AA84C62C9B4A5600509CFC /* AlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA84C52C9B4A5600509CFC /* AlbumsView.swift */; };
+		74AA84C92C9B4BD500509CFC /* ArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA84C82C9B4BD500509CFC /* ArtistsView.swift */; };
 		74C2DB7B2C99F5F300E8A74C /* PlaylistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C2DB7A2C99F5F300E8A74C /* PlaylistRow.swift */; };
 		74C2DB7D2C99F77500E8A74C /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C2DB7C2C99F77500E8A74C /* PlaylistsView.swift */; };
 		74C2DB802C99F9FB00E8A74C /* AlbumRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C2DB7F2C99F9FB00E8A74C /* AlbumRow.swift */; };
@@ -44,6 +45,7 @@
 		7498417D2C94D942000169E2 /* IslesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslesData.swift; sourceTree = "<group>"; };
 		7498417F2C94DA19000169E2 /* Isles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Isles.json; sourceTree = "<group>"; };
 		74AA84C52C9B4A5600509CFC /* AlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsView.swift; sourceTree = "<group>"; };
+		74AA84C82C9B4BD500509CFC /* ArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsView.swift; sourceTree = "<group>"; };
 		74C2DB7A2C99F5F300E8A74C /* PlaylistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRow.swift; sourceTree = "<group>"; };
 		74C2DB7C2C99F77500E8A74C /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
 		74C2DB7F2C99F9FB00E8A74C /* AlbumRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRow.swift; sourceTree = "<group>"; };
@@ -122,6 +124,14 @@
 			path = AlbumDetails;
 			sourceTree = "<group>";
 		};
+		74AA84C72C9B4BBD00509CFC /* Artists */ = {
+			isa = PBXGroup;
+			children = (
+				74AA84C82C9B4BD500509CFC /* ArtistsView.swift */,
+			);
+			path = Artists;
+			sourceTree = "<group>";
+		};
 		74C2DB792C99F5AB00E8A74C /* Playlists */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +171,7 @@
 		74D007402C977B99009E21C1 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				74AA84C72C9B4BBD00509CFC /* Artists */,
 				74C2DB7E2C99F9D600E8A74C /* Albums */,
 				74C2DB792C99F5AB00E8A74C /* Playlists */,
 				74D007412C977BB7009E21C1 /* LibraryView.swift */,
@@ -296,6 +307,7 @@
 				7498417E2C94D942000169E2 /* IslesData.swift in Sources */,
 				74D0073F2C973FA9009E21C1 /* SearchView.swift in Sources */,
 				74FEC9B02C7E8D8B00574D57 /* AlbumList.swift in Sources */,
+				74AA84C92C9B4BD500509CFC /* ArtistsView.swift in Sources */,
 				74887F222C78D24300C89870 /* Spotify_CloneApp.swift in Sources */,
 				74C2DB802C99F9FB00E8A74C /* AlbumRow.swift in Sources */,
 				74FEC9A42C7E7A8700574D57 /* NewItems.swift in Sources */,
