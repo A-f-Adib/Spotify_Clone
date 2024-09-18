@@ -14,6 +14,7 @@
 		7498417B2C94D710000169E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7498417A2C94D710000169E2 /* HomeView.swift */; };
 		7498417E2C94D942000169E2 /* IslesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7498417D2C94D942000169E2 /* IslesData.swift */; };
 		749841802C94DA19000169E2 /* Isles.json in Resources */ = {isa = PBXBuildFile; fileRef = 7498417F2C94DA19000169E2 /* Isles.json */; };
+		74AA84C62C9B4A5600509CFC /* AlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA84C52C9B4A5600509CFC /* AlbumsView.swift */; };
 		74C2DB7B2C99F5F300E8A74C /* PlaylistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C2DB7A2C99F5F300E8A74C /* PlaylistRow.swift */; };
 		74C2DB7D2C99F77500E8A74C /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C2DB7C2C99F77500E8A74C /* PlaylistsView.swift */; };
 		74C2DB802C99F9FB00E8A74C /* AlbumRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C2DB7F2C99F9FB00E8A74C /* AlbumRow.swift */; };
@@ -42,6 +43,7 @@
 		7498417A2C94D710000169E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7498417D2C94D942000169E2 /* IslesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslesData.swift; sourceTree = "<group>"; };
 		7498417F2C94DA19000169E2 /* Isles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Isles.json; sourceTree = "<group>"; };
+		74AA84C52C9B4A5600509CFC /* AlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsView.swift; sourceTree = "<group>"; };
 		74C2DB7A2C99F5F300E8A74C /* PlaylistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRow.swift; sourceTree = "<group>"; };
 		74C2DB7C2C99F77500E8A74C /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
 		74C2DB7F2C99F9FB00E8A74C /* AlbumRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRow.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				74C2DB7F2C99F9FB00E8A74C /* AlbumRow.swift */,
+				74AA84C52C9B4A5600509CFC /* AlbumsView.swift */,
 			);
 			path = Albums;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			files = (
 				74D007422C977BB7009E21C1 /* LibraryView.swift in Sources */,
 				7498417B2C94D710000169E2 /* HomeView.swift in Sources */,
+				74AA84C62C9B4A5600509CFC /* AlbumsView.swift in Sources */,
 				74C2DB7B2C99F5F300E8A74C /* PlaylistRow.swift in Sources */,
 				74FEC9B22C7E901200574D57 /* PodCastList.swift in Sources */,
 				74887F242C78D24300C89870 /* ContentView.swift in Sources */,
