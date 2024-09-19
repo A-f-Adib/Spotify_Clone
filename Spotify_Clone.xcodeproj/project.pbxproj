@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		744299262C9C9BB700863317 /* ArtistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744299252C9C9BB700863317 /* ArtistRow.swift */; };
+		744299292C9C9CA900863317 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744299282C9C9CA900863317 /* EpisodeView.swift */; };
 		74887F222C78D24300C89870 /* Spotify_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74887F212C78D24300C89870 /* Spotify_CloneApp.swift */; };
 		74887F242C78D24300C89870 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74887F232C78D24300C89870 /* ContentView.swift */; };
 		74887F262C78D24C00C89870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74887F252C78D24C00C89870 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		744299252C9C9BB700863317 /* ArtistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRow.swift; sourceTree = "<group>"; };
+		744299282C9C9CA900863317 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
 		74887F1E2C78D24200C89870 /* Spotify_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74887F212C78D24300C89870 /* Spotify_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_CloneApp.swift; sourceTree = "<group>"; };
 		74887F232C78D24300C89870 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		744299272C9C9C8B00863317 /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+				744299282C9C9CA900863317 /* EpisodeView.swift */,
+			);
+			path = Episodes;
+			sourceTree = "<group>";
+		};
 		74887F152C78D24200C89870 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +184,7 @@
 		74D007402C977B99009E21C1 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				744299272C9C9C8B00863317 /* Episodes */,
 				74AA84C72C9B4BBD00509CFC /* Artists */,
 				74C2DB7E2C99F9D600E8A74C /* Albums */,
 				74C2DB792C99F5AB00E8A74C /* Playlists */,
@@ -316,6 +327,7 @@
 				74FEC9A42C7E7A8700574D57 /* NewItems.swift in Sources */,
 				744299262C9C9BB700863317 /* ArtistRow.swift in Sources */,
 				74C2DB7D2C99F77500E8A74C /* PlaylistsView.swift in Sources */,
+				744299292C9C9CA900863317 /* EpisodeView.swift in Sources */,
 				74D007382C973C81009E21C1 /* GenreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

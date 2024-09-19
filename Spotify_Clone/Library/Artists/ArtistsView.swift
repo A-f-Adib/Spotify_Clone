@@ -43,6 +43,9 @@ struct ArtistsView: View {
                     .background(Color.gray).opacity(0.4)
                 }.padding(.bottom, 15)
                 
+                ForEach (0..<8){ index in
+                ArtistRow(albums: albums[index])
+                }
                 
                 Spacer()
             }
