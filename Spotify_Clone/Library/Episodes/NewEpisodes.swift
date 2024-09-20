@@ -33,10 +33,25 @@ struct NewEpisodes: View {
                             .frame(width: 100, height: 4)
                             .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
                             .opacity(0.2)
-                    }
+                        Rectangle()
+                            .foregroundColor(.green)
+                            .frame(width: prgress, height: 4)
+                            .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
+                    }.padding(.trailing, 50)
                 }
             }
+            .foregroundColor(.white)
+            Spacer()
+            Image(systemName: "checkmark")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 15, height: 15)
+                .foregroundColor(.white)
+                .opacity(0.3)
+            Spacer()
         }
+        .background(darkGray)
+        .cornerRadius(5)
     }
 }
 
