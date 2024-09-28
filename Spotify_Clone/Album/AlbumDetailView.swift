@@ -57,6 +57,24 @@ struct AlbumDetailView: View {
                         Text("SHUFFLE PLAY")
                             .foregroundColor(.white).bold()
                     }
+                    .frame(width: 200, height: 50)
+                    .background(Color.green)
+                    .cornerRadius(60)
+                    .padding(.vertical)
+                    
+                    HStack{
+                        Text("Download")
+                            .foregroundColor(.white)
+                            .font(.headline)
+                        Spacer()
+                        Toggle(isOn: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Is On@*/.constant(true)/*@END_MENU_TOKEN@*/) {
+                        }
+                    }
+                    .padding(.vertical)
+                    ForEach(0..<albums.songs){ i in
+                        AlbumListView(albumdetails: isles[i])
+                    }
+                    .padding(.bottom, 3)
     }
 }
 
