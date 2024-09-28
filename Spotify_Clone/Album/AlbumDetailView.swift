@@ -102,6 +102,21 @@ struct AlbumDetailView: View {
                         .foregroundColor(.white).bold()
                     
                 }.padding()
+                
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(alignment: .top){
+                        AlbumList(albums: albums)
+                        AlbumList(albums: albums)
+                        AlbumList(albums: albums)
+                        AlbumList(albums: albums)
+                        AlbumList(albums: albums)
+                    }
+                }.padding(.leading)
+                .padding(.trailing)
+            }.padding(.top, -20)
+        }
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: btnBack)
     }
 }
 
