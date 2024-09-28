@@ -75,6 +75,33 @@ struct AlbumDetailView: View {
                         AlbumListView(albumdetails: isles[i])
                     }
                     .padding(.bottom, 3)
+                    
+                    HStack {
+                        Text("\(albums.date), \(albums.year)")
+                            .foregroundColor(.white).bold()
+                        Spacer()
+                    }
+                    HStack {
+                        Text("\(albums.songs) Songs • \(albums.time)")
+                            .font(.subheadline)
+                            .foregroundColor(.white)
+                        Spacer()
+                    }
+                    HStack{
+                        Image(albums.artistimg)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 50, height: 50)
+                            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        Text(albums.artist)
+                            .foregroundColor(.white).bold()
+                        Spacer()
+                    }
+                    
+                    Text("You might also like")
+                        .foregroundColor(.white).bold()
+                    
+                }.padding()
     }
 }
 
