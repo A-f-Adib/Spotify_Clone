@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7426A3A02CA8A63600596AE5 /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7426A39F2CA8A63600596AE5 /* AlbumDetailView.swift */; };
 		744299262C9C9BB700863317 /* ArtistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744299252C9C9BB700863317 /* ArtistRow.swift */; };
 		744299292C9C9CA900863317 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744299282C9C9CA900863317 /* EpisodeView.swift */; };
 		745A401A2C9F3C4C00D32405 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745A40192C9F3C4C00D32405 /* DownloadsView.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7426A39F2CA8A63600596AE5 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
 		744299252C9C9BB700863317 /* ArtistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRow.swift; sourceTree = "<group>"; };
 		744299282C9C9CA900863317 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
 		745A40192C9F3C4C00D32405 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7426A39E2CA8A61700596AE5 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				7426A39F2CA8A63600596AE5 /* AlbumDetailView.swift */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
 		744299272C9C9C8B00863317 /* Episodes */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,9 +145,10 @@
 		74887F202C78D24200C89870 /* Spotify_Clone */ = {
 			isa = PBXGroup;
 			children = (
-				74D007402C977B99009E21C1 /* Library */,
 				74887F212C78D24300C89870 /* Spotify_CloneApp.swift */,
 				74887F232C78D24300C89870 /* ContentView.swift */,
+				7426A39E2CA8A61700596AE5 /* Album */,
+				74D007402C977B99009E21C1 /* Library */,
 				74D007362C973C49009E21C1 /* Search */,
 				74FEC9A52C7E7B0B00574D57 /* DataParsing */,
 				74FEC9A22C7E7A6E00574D57 /* Home */,
@@ -361,6 +372,7 @@
 				74FEC9A42C7E7A8700574D57 /* NewItems.swift in Sources */,
 				744299262C9C9BB700863317 /* ArtistRow.swift in Sources */,
 				74C2DB7D2C99F77500E8A74C /* PlaylistsView.swift in Sources */,
+				7426A3A02CA8A63600596AE5 /* AlbumDetailView.swift in Sources */,
 				744299292C9C9CA900863317 /* EpisodeView.swift in Sources */,
 				745A401F2C9F3E6500D32405 /* ShowsView.swift in Sources */,
 				745A401D2C9F3DAF00D32405 /* ShowRow.swift in Sources */,
