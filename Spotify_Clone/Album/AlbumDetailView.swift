@@ -116,7 +116,7 @@ struct AlbumDetailView: View {
             }.padding(.top, -20)
         }
         .navigationBarBackButtonHidden(true)
-        .navigationBarItems(leading: btnBack)
+        
     }
 }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7426A3A02CA8A63600596AE5 /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7426A39F2CA8A63600596AE5 /* AlbumDetailView.swift */; };
+		7426A3A22CA8AB9D00596AE5 /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7426A3A12CA8AB9D00596AE5 /* AlbumListView.swift */; };
 		744299262C9C9BB700863317 /* ArtistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744299252C9C9BB700863317 /* ArtistRow.swift */; };
 		744299292C9C9CA900863317 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744299282C9C9CA900863317 /* EpisodeView.swift */; };
 		745A401A2C9F3C4C00D32405 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745A40192C9F3C4C00D32405 /* DownloadsView.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		7426A39F2CA8A63600596AE5 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
+		7426A3A12CA8AB9D00596AE5 /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
 		744299252C9C9BB700863317 /* ArtistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRow.swift; sourceTree = "<group>"; };
 		744299282C9C9CA900863317 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
 		745A40192C9F3C4C00D32405 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				7426A39F2CA8A63600596AE5 /* AlbumDetailView.swift */,
+				7426A3A12CA8AB9D00596AE5 /* AlbumListView.swift */,
 			);
 			path = Album;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				74C2DB7B2C99F5F300E8A74C /* PlaylistRow.swift in Sources */,
 				745A401A2C9F3C4C00D32405 /* DownloadsView.swift in Sources */,
 				74FEC9B22C7E901200574D57 /* PodCastList.swift in Sources */,
+				7426A3A22CA8AB9D00596AE5 /* AlbumListView.swift in Sources */,
 				74887F242C78D24300C89870 /* ContentView.swift in Sources */,
 				74FEC9A82C7E7B6E00574D57 /* AlbumData.swift in Sources */,
 				74FEC9AE2C7E822F00574D57 /* Parser.swift in Sources */,
