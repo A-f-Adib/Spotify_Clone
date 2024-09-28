@@ -33,12 +33,33 @@ struct AlbumDetailView: View {
         }
     }
     }
+    
+    
          
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.black
+            LinearGradient(gradient: Gradient(stops: [.init(color: .red, location: 0.01), .init(color: darkGray, location: 0.3), .init(color: .black, location: 0.9)]), startPoint: .top, endPoint: .bottom)
+                .ignoresSafeArea()
+            ScrollView {
+                VStack {
+                    Image(albums.img)
+                        .padding()
+                    Text(albums.album)
+                        .foregroundColor(.white).bold()
+                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        .padding(.bottom, 0.3)
+                    Text("Album by \(albums.artist) • \(albums.year)")
+                        .foregroundColor(.gray)
+                        .font(.subheadline)
+                        .padding(.bottom, 7)
+                    Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("SHUFFLE PLAY")
+                            .foregroundColor(.white).bold()
+                    }
     }
 }
 
 #Preview {
-    AlbumDetailView(albumdetails: <#AlbumDetails#>, albums: <#Album#>)
+    AlbumDetailView(albumdetails: isles[0], albums: albums[0])
 }
