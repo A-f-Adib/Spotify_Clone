@@ -26,6 +26,7 @@
 		749841802C94DA19000169E2 /* Isles.json in Resources */ = {isa = PBXBuildFile; fileRef = 7498417F2C94DA19000169E2 /* Isles.json */; };
 		74AA84C62C9B4A5600509CFC /* AlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA84C52C9B4A5600509CFC /* AlbumsView.swift */; };
 		74AA84C92C9B4BD500509CFC /* ArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA84C82C9B4BD500509CFC /* ArtistsView.swift */; };
+		74B953BE2CAB3DF7002878CD /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B953BD2CAB3DF7002878CD /* TestView.swift */; };
 		74C2DB7B2C99F5F300E8A74C /* PlaylistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C2DB7A2C99F5F300E8A74C /* PlaylistRow.swift */; };
 		74C2DB7D2C99F77500E8A74C /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C2DB7C2C99F77500E8A74C /* PlaylistsView.swift */; };
 		74C2DB802C99F9FB00E8A74C /* AlbumRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C2DB7F2C99F9FB00E8A74C /* AlbumRow.swift */; };
@@ -66,6 +67,7 @@
 		7498417F2C94DA19000169E2 /* Isles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Isles.json; sourceTree = "<group>"; };
 		74AA84C52C9B4A5600509CFC /* AlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsView.swift; sourceTree = "<group>"; };
 		74AA84C82C9B4BD500509CFC /* ArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsView.swift; sourceTree = "<group>"; };
+		74B953BD2CAB3DF7002878CD /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		74C2DB7A2C99F5F300E8A74C /* PlaylistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRow.swift; sourceTree = "<group>"; };
 		74C2DB7C2C99F77500E8A74C /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
 		74C2DB7F2C99F9FB00E8A74C /* AlbumRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRow.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				74FEC9B32C7E903300574D57 /* PodCastParsing */,
 				74FEC9A62C7E7B4800574D57 /* AlbumParsing */,
 				74FEC9AD2C7E822F00574D57 /* Parser.swift */,
+				74B953BD2CAB3DF7002878CD /* TestView.swift */,
 			);
 			path = DataParsing;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				74C2DB7B2C99F5F300E8A74C /* PlaylistRow.swift in Sources */,
 				745A401A2C9F3C4C00D32405 /* DownloadsView.swift in Sources */,
 				74FEC9B22C7E901200574D57 /* PodCastList.swift in Sources */,
+				74B953BE2CAB3DF7002878CD /* TestView.swift in Sources */,
 				7426A3A22CA8AB9D00596AE5 /* AlbumListView.swift in Sources */,
 				74887F242C78D24300C89870 /* ContentView.swift in Sources */,
 				74FEC9A82C7E7B6E00574D57 /* AlbumData.swift in Sources */,
