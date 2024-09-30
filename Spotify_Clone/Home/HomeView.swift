@@ -22,6 +22,7 @@ struct HomeView: View {
     init(mainAlbums: Album, mainPodcasts: PodCast) {
         self.mainAlbums = mainAlbums
         self.mainPodcasts = mainPodcasts
+        
        
     }
     

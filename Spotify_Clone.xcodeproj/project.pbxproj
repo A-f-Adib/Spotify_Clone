@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7426A3A02CA8A63600596AE5 /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7426A39F2CA8A63600596AE5 /* AlbumDetailView.swift */; };
 		7426A3A22CA8AB9D00596AE5 /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7426A3A12CA8AB9D00596AE5 /* AlbumListView.swift */; };
+		7440406C2CAB1D2200A9E5BD /* SearchBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440406B2CAB1D2200A9E5BD /* SearchBox.swift */; };
 		744299262C9C9BB700863317 /* ArtistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744299252C9C9BB700863317 /* ArtistRow.swift */; };
 		744299292C9C9CA900863317 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744299282C9C9CA900863317 /* EpisodeView.swift */; };
 		745A401A2C9F3C4C00D32405 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745A40192C9F3C4C00D32405 /* DownloadsView.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		7426A39F2CA8A63600596AE5 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
 		7426A3A12CA8AB9D00596AE5 /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
+		7440406B2CAB1D2200A9E5BD /* SearchBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBox.swift; sourceTree = "<group>"; };
 		744299252C9C9BB700863317 /* ArtistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRow.swift; sourceTree = "<group>"; };
 		744299282C9C9CA900863317 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
 		745A40192C9F3C4C00D32405 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 			children = (
 				74D007372C973C81009E21C1 /* GenreView.swift */,
 				74D0073E2C973FA9009E21C1 /* SearchView.swift */,
+				7440406B2CAB1D2200A9E5BD /* SearchBox.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				74C2DB7D2C99F77500E8A74C /* PlaylistsView.swift in Sources */,
 				7426A3A02CA8A63600596AE5 /* AlbumDetailView.swift in Sources */,
 				744299292C9C9CA900863317 /* EpisodeView.swift in Sources */,
+				7440406C2CAB1D2200A9E5BD /* SearchBox.swift in Sources */,
 				745A401F2C9F3E6500D32405 /* ShowsView.swift in Sources */,
 				745A401D2C9F3DAF00D32405 /* ShowRow.swift in Sources */,
 				74D007382C973C81009E21C1 /* GenreView.swift in Sources */,
