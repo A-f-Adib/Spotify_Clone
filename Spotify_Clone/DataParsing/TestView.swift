@@ -11,12 +11,16 @@ struct TestView: View {
    
     var body: some View {
         
-        ZStack{
-        Color.black
-            .ignoresSafeArea()
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .foregroundColor(.white)
+        NavigationView {
+            ZStack {
+                Color.black.edgesIgnoringSafeArea([.all])
+                NavigationLink(destination: ContentView()) {
+                    Text("push")
+                }
+            }
+           
         }
+
     }
 }
 

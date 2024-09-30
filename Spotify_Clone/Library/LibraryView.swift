@@ -212,7 +212,7 @@ struct LibraryView: View {
                     }
                 case 3:
                     VStack{
-                        EpisodesView()
+                        EpisodeView()
                             .transition(.slide)
                     }
                 case 4:
